@@ -1,3 +1,4 @@
+" Basic settings
 set number
 set mouse=a
 set numberwidth=1
@@ -9,10 +10,15 @@ set cursorline
 set encoding=utf-8
 set showmatch
 set sw=2
-set relativenumber
+set number relativenumber
 set laststatus=2
 set autoindent
 set smartindent
+set termguicolors
+
+" Autocompletion
+set wildmenu
+set wildmenu=longest:list,full
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
