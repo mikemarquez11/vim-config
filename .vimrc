@@ -18,7 +18,7 @@ set termguicolors
 
 " Autocompletion
 set wildmenu
-set wildmenu=longest:list,full
+set wildmode=longest:list,full
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
